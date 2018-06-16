@@ -1,0 +1,80 @@
+.top{
+    background-color: palevioletred;
+    background-image: url(..//image/top.jpg);
+    background-size: cover;
+}
+
+.menu {
+    text-align: center;
+}
+
+.id{
+    padding-left: 2%;
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.ss_title {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.map {
+    float: left;
+    padding-left: 12%;
+}
+
+.tel {
+    float: right;
+    text-align: center;
+    color: blueviolet;
+}
+
+#tel {
+    float: center;
+    text-align: center;
+    color: blueviolet;
+}
+
+.mail {
+    float: right;
+    text-align: center;
+    color: blueviolet;
+}
+
+#mail {
+    float: center;
+    text-align: center;
+    color: blueviolet;
+}
+
+#footer {
+    /*bandeau footer*/
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 150px;
+
+}
+
+.logo {
+    text-align: center;
+    color: blueviolet;
+
+}
+
+.copym {
+    float: right;
+    color: blueviolet;
+    padding-right: 3%;
+}

@@ -1,0 +1,137 @@
+.home {
+    background-color: #fff;
+    background: url(image/fond2.jpg);
+    background-size: cover;
+    
+
+    
+}
+
+.menu {
+    text-align: center;
+}
+
+.id {
+    float: left;
+    padding-left: 5%;
+}
+
+
+
+a.btn btn-secondary {
+    background-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+     color: blueviolet;
+    font-size: 50px;
+}
+.ss_title {
+        font-family: 'Anton', sans-serif;
+    text-align: center;
+     color: blueviolet;
+    font-size: 40px;
+
+}
+
+.intro {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.voir_cv {
+    text-align: center;
+}
+#voir_cv {
+    text-align: center;
+}
+
+.countdown {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+     color: blueviolet;
+    background-attachment: scroll;
+}
+
+
+#countdown{
+    width: 850px;
+    margin: 3% auto;
+}
+
+#clock span{
+    float: left;
+    text-align: center;
+    font-size: 75px;
+    margin: 0 2.5%;
+    color:black;
+    padding: 20px;
+    width: 20%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#clock span:nth-child(1){
+    background-color: darkorchid;
+}
+
+#clock span:nth-child(2){
+    background-color:palevioletred;
+}
+
+#clock span:nth-child(3){
+    background-color: darkorchid;
+}
+
+#clock span:nth-child(4){
+    background-color: palevioletred;
+}
+
+#units span{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: ;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-shadow:  1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+span.turn{
+    animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+    0%{transform: rotateX(0deg)}
+    100%{transform: rotateX(360deg)}
+}
+
+#footer {   /*bandeau footer*/
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.logo {
+   text-align: center;
+    color: blueviolet;
+   
+}
+.copym {
+    float: right;
+    color: blueviolet;
+    padding-right: 3%;
+}

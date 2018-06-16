@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="css/contact.css" rel="stylesheet">
+
+    <title>CV Marine contact page</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+ 
+
+        <div class="row">
+
+                <div class="col-md-12">
+           
+                   <div class="top"> 
+
+                    <div class="menu">
+
+                        <div class="btn-group btn-group-justified" role="group">
+                            <a href="index.html" class="btn btn-secondary"> Acceuil</a>
+                            <a href="cv.html" class="btn btn-secondary"> Mon CV</a>
+                            <a href="competences.html" class="btn btn-secondary"> Compétences</a>
+                            <a href="contact.html" class="btn btn-secondary"> Contact</a>
+                        </div>
+                    </div>
+
+                    <div class="id">
+                        <img alt="ma photo" src="image/idmg.png" class="img-responsive" />
+                        <h1 class="title">
+                            Contactez-moi
+                        </h1>
+                        <br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <br><br><br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344143.5931719638!2d5.341985201585879!3d43.34278502676925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9e8ed833c727b%3A0x56b4667e07883ba!2s14+Boulevard+Jean+Moulin%2C+13730+Saint-Victoret!5e0!3m2!1sfr!2sfr!4v1529152298416" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <div id="tel">
+                    <a class="fas fa-mobile-alt fa-3x" style="color: blueviolet"> </a>
+                    <p id="tel">06.66.13.25.99</p>
+                </div>
+                <br><br>
+                <div id="mail">
+                    <a class="far fa-envelope fa-3x" style="color: blueviolet"> </a>
+                    <p id="mail">marinegoa.pro@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="formulaire">
+                    <h2 class="ss_title"> Envoyez moi un e-mail</h2>
+                    <br><br><br><br>
+
+                    <div align=center>
+                        <form method=POST action="mailto:marinegoa.pro@gmail.com?" name=subject ENCTYPE="text/plain">
+                            <table>
+                                <tr>
+                                    <td>Nom-Prenom:</td>
+                                    <td><input type=text name=realname size=30></td>
+                                </tr>
+                                <tr>
+                                    <td>Votre Site/*:</td>
+                                    <td><input type=text name=site size=30></td>
+                                </tr>
+                                <tr>
+                                    <td>Votre Email:</td>
+                                    <td><input type=text name=email size=30></td>
+                                </tr>
+                                <tr>
+                                    <td>Sujet:</td>
+                                    <td><input type=text name=title size=30></td>
+                                </tr>
+                                <tr>
+                                    <td colspan=2>Votre message:<br> <textarea COLS=50 ROWS=6 name=comments></textarea> </td>
+                                </tr>
+                            </table> <br> <input type=submit value=Envoyer> - <input type=reset value=Annuler>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <footer id="footer">
+                    <br><br>
+                    <div class="logo">
+                        <a class="fab fa-github fa-3x" href="https://github.com/xMarinex" style="color: blueviolet"></a>
+                        <a class="fab fa-linkedin-in fa-3x" href="https://www.linkedin.com/in/marine-goacolou/" style="color: blueviolet"></a>
+                    </div>
+                    <div class="copym">
+                        <i class="far fa-copyright">Marine Goacolou</i>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <style>
+        label {
+            display: inline-block;
+            min-width: 200px;
+        }
+
+    </style>
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+                var limit = $('.limit');
+                var message = $('#message');
+                var submit = $('#submit');
+
+                $(limit).txt('2000');
+
+                $(message).keyup(function() {
+
+                        var rest = 10 - $(this).val().length;
+                        if (rest < 0) {
+                            $(limit).css('color', '#f55');
+                            $(submit).attr('disabled', 'disabled');
+                        } else {
+                            $(limit).css('color': '#000');
+                            $(submit).removeAttr('disabled');
+                        }
+                    )
+                };
+            )
+        };
+
+    </script>
+</body>

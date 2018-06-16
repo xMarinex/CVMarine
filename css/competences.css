@@ -1,0 +1,99 @@
+.top {
+    background-color: palevioletred;
+    background-image: url(..//image/top.jpg);
+    background-size: cover;
+}
+
+.menu {
+    text-align: center;
+}
+
+.id {
+    padding-left: 2%;
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: blueviolet;
+    font-size: 55px;
+}
+
+.pf {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    background-color: lightgray;
+   
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: blueviolet;
+}
+
+h5 {
+      font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+
+
+.back{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: lightgray;
+    
+}
+
+.other{
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgray;
+}
+
+.wrapper {
+				width: 500px;
+}
+			
+
+.progress-bar {
+				width: 100%;
+				background-color: #e0e0e0;
+				padding: 3px;
+				border-radius: 3px;
+				box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+			
+.progress-bar-fill {
+				display: block;
+				height: 22px;
+				background-color: blueviolet;
+				border-radius: 3px;
+				
+				transition: width 500ms ease-in-out;
+}
+
+
+#footer {
+    /*bandeau footer*/
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 150px;
+
+}
+
+.logo {
+    text-align: center;
+    color: blueviolet;
+
+}
+
+.copym {
+    float: right;
+    color: blueviolet;
+    padding-right: 3%;
+}
