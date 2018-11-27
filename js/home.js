@@ -42,6 +42,6 @@ if (timer.total < 1) {
 }
 
 window.onload = function (){
-    var deadline = new Date("may 25, 2018 00:00:01");
+    var deadline = new Date("may 25, 2019 00:00:01");
     startTimer("clock", deadline);
 }
